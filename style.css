@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    background-color:#738535;
+}
+.logo{
+    font-weight: bold;
+    font-size: 20PX;
+    
+}
+.navbar{
+    background-color: rgb(86, 97, 93);
+    padding: 5px;
+    width: 95%;
+}
+.menu li{
+    list-style-type: none;
+   float: left; 
+   padding-right: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+        
+}
+.menu{
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 400px;
+}
+.menu li a:hover{
+    font-size: 18px;
+    
+    
+
+}
+.jumbotround{
+  background-color: black;
+  width: 95%;  
+}
+
+.ilustrasi{
+    margin-top: 20px;
+    text-align: justify;
+    width: 350px;
+
+
+}
+.ilustrasi h3{
+color: white;
+margin-left: 15px;
+padding-top: 10px;
+}
+.ilustrasi h1 {
+    color: white;
+    margin-left: 15px;
+    }
+ 
+.ilustrasi p {
+    color: white;
+    margin-left: 15px;   
+    }   
+.hiro img{
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 400px;
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(94, 59, 232);
+
+}
+.ilustrasi2 {
+   background-color: bisque; 
+   width: 400px;
+   position: absolute;
+   margin-top: -300px;
+   margin-left:800px ;
+   border-radius: 20px;
+   padding: 20px;
+}
+.ilustrasi2 li{
+    list-style-type: none;
+    float: left; 
+    padding-right: 10px;
+}
+.futner{
+    
+    width: 950px;
+    height: 100px;
+    background-color:rgb(85, 84, 83) ;
+    margin: auto;
+    border-radius: 20px;
+    padding: 7px;
+}
+.futner2{
+background-color: rgb(53, 53, 48);
+/* height: 450px; */
+width: 95%;
+/* gap: 10px;
+gap: 15px; */
+position: absolute;
+margin-top: 50px;
+color: white;
+height: 90%;
+
+}
+.bog1{
+    width: 350px;
+    position: absolute;
+    margin-left: 30px;
+}
+.bog2{
+    
+    /* background-color: rgb(26, 24, 22); */
+    width: 350px;
+    position: absolute;
+    margin-top:220px ;
+    margin-left: 20px;
+
+}
+
+.bog11  h1{
+    color: yellow;
+    margin: auto;
+}
+.bog12 h1{
+    color: yellow;
+}
+.bog13 h1{
+    color: yellow;
+}
+.bog14 h1{
+    color: yellow;
+}
+.bog13{
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 155px;
+}
+
+.bog14{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 155px;
+}
+/* .bog3{
+    position: absolute;
+    margin-left: 800px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.bog15{
+    padding-bottom: 15px;
+} */
+/* .bog16{
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.bog17{
+    margin-top: 10px;
+} */
+.gambar-list{
+    margin-left: 600px;
+}
+.gambar-list li{
+    list-style-type: none;
+    padding-bottom: 12px;
+}
+.terakhir{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 40px;
+    
+}
+.content1{
+   background-color: dimgray; 
+   width: 320px;
+   height: 200px;
+   
+}
+.content1 img{
+    margin-left: 120px;
+    margin-bottom: 30px;
+    padding-top: 25px;
+    border-radius: 40px;
+    
+}
+.content1 p{
+    width: 250px;
+    display: flex;
+    margin-left: 25px;
+    position: absolute;
+    margin-top: -10px;
+    color: white;
+    font-weight: 10px
+
+}
+.content2{
+    background-color: dimgray; 
+    width: 320px;
+    height: 200px;
+    margin-left:420px ;
+    position: absolute;
+    
+ }
+ .content2 img{
+     margin-left: 120px;
+     margin-bottom:30px;
+     margin-top: 20px;
+     border-radius: 40px;
+     
+ }
+ .content2 p{
+     width: 280px;
+     display: flex;
+     margin-left: 25px;
+     position: absolute;
+     margin-top: -10px;
+     color: white;   
+     font-weight: 10px
+ }
+ .content3{
+    background-color: dimgray; 
+    width: 320px;
+    height: 200px;
+    margin-left:890px ;
+    position: absolute;
+    
+ }
+ .content3 img{
+     margin-left: 120px;
+     margin-bottom: 30px;
+     margin-top: 30pxs;
+     border-radius: 40px;
+ }
+ .content3 p{
+     width: 240px;
+     display: flex;
+     margin-left: 25px;
+     position: absolute;
+     margin-top: -10px;
+     color: white;
+     font-weight: 10px
+     ;   
+ 
+ }
+ 
+ .menujufouter{
+    width: 95%;
+    background-color: gray;
+    height: 200%;
+    position: absolute;
+    margin-top: 580px;
+ }
+ .contener li{
+    list-style-type: none;
+    margin-top: -20px;
+    color: white;   
+ }
+ .contener{
+    margin-top: 170px;
+    position: absolute;
+    width: 50%;
+ }
+ .contener1{
+    margin-top: 270px;
+    position: absolute;
+    width: 34%;
+    height: 265px;
+    background-color: black;
+    margin-left: 50px;
+ }
+ .contener1 li{
+    list-style-type: none;
+    margin-top: -20px;
+    color: white;   
+ }
+ .contener1 img{
+    width: 390px;
+    
+    margin-left: -40px;
+ }
+ .contener1 h3{
+    color: yellow;
+    margin-left: -40px;
+ }
+ .contener1 h4{
+    color:white;
+    margin-left: -40px;
+ }
+ .contener2{
+    margin-top: 270px;
+    position: absolute;
+    width: 34%;
+    height: 265px;
+    background-color: black;
+    margin-left: 700px;
+ }
+ .contener2 li{
+    list-style-type: none;
+    margin-top: -20px;
+    color: white;   
+ }
+ .contener2 img{
+    width: 390px;
+    margin-left: -40px;
+ }
+ .contener2 h3{
+    color: yellow;
+    margin-left: -40px;
+ }
+ .contener2 h4{
+    color:white;
+    margin-left: -40px;
+ }
+ .contener3{
+    margin-top: 570px;
+    position: absolute;
+    width: 34%;
+    height: 265px;
+    background-color: black;
+    margin-left: 50px;
+ }
+ .contener3 li{
+    list-style-type: none;
+    margin-top: -20px;
+    color: white;   
+ }
+ .contener3 img{
+    width: 390px;
+    margin-left: -40px;
+ }
+ .contener3 h3{
+    color: yellow;
+    margin-left: -40px;
+ }
+ .contener3 h4{
+    color:white;
+    margin-left: -40px;
+ }
+ .contener4{
+    margin-top: 570px;
+    position: absolute;
+    width: 34%;
+    height: 265px;
+    background-color: black;
+    margin-left: 700px;
+ }
+ .contener4 li{
+    list-style-type: none;
+    margin-top: -20px;
+    color: white;   
+ }
+ .contener4 img{
+    width: 390px;
+    margin-left: -40px;
+ }
+ .contener4 h3{
+    color: yellow;
+    margin-left: -40px;
+ }
+ .contener4 h4{
+    color:white;
+    margin-left: -40px;
+}
+.contener5{
+    margin-top: 870px;
+    position: absolute;
+    width: 34%;
+    height: 265px;
+    background-color: black;
+    margin-left: 50px;
+ }
+ .contener5 li{
+    list-style-type: none;
+    margin-top: -20px;
+    color: white;   
+ }
+ .contener5 img{
+    width: 390px;
+    margin-left: -40px;
+ }
+ .contener5 h3{
+    color: yellow;
+    margin-left: -40px;
+ }
+ .contener5 h4{
+    color:white;
+    margin-left: -40px;
+ }
+ .contener6{
+    margin-top: 870px;
+    position: absolute;
+    width: 34%;
+    height: 265px;
+    background-color: black;
+    margin-left: 700px;
+ }
+ .contener6 li{
+    list-style-type: none;
+    margin-top: -20px;
+    color: white;   
+ }
+ .contener6 img{
+    width: 390px;
+    margin-left: -40px;
+ }
+ .contener6 h3{
+    color: yellow;
+    margin-left: -40px;
+ }
+ .contener6 h4{
+    color:white;
+    margin-left: -40px;
+ }
+
+.Showmore{
+    margin-top: 1200px;
+    margin-left: 490px;
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color:yellow;
+}
+.Showmore button{
+width: 200px;
+height: 50px;
+background-color: gray;
+}
+.Showmore button a{
+    font-size: 30px;
+    text-decoration: none;
+    color: yellow;
+
+}
+.bagianakhirnya{
+    width: 95%;
+    background-color: rgb(16, 6, 6);
+    height: 100%;
+    position: absolute;
+    margin-top: 1892px;
+}
+.bagianakhirnya li{
+    list-style: none;
+}
+.bagianakhirnya li h1{
+color: yellow;
+font-size: 130px;
+position: absolute;
+margin-left: 470px;
+margin-top: -500px;
+
+}
+
+.bagianakhirnya li h3{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -350px;
+    width: 550px;
+    
+    }
+    .bagianakhirnya li h2{
+        color:white;
+        font-size: 30px;
+        position: absolute;
+        margin-left: 550px;
+        margin-top: -150px;
+        width: 550px;
+        
+        }
+    
+
+        .bagianakhirnya li h4{
+            color:white;
+            font-size: 15px;
+            position: absolute;
+            margin-left: 550px;
+            margin-top: -110px;
+            width: 550px;
+            
+            }
+
+.foto1{
+    margin-left: 410px;
+    position: absolute;
+    margin-top: 110px;
+    background-color: rgb(73, 74, 75);
+    padding: 10px;
+    height: 100px;    
+    width: 100px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: blueviolet;
+    padding: 20px;
+}
+.foto1 button{
+ width: 100px;
+ height: 100px;
+ background-color: rgb(7, 7, 2);
+ border-radius: 100%;
+ border-style: solid;
+ border-color: aquamarine;
+}
+.foto1 button a{
+    font-size: 40px;
+    text-decoration: none;
+    color: yellow;
+    border: 20px;
+   }
+   
+   .foto2{
+    margin-left: 610px;
+    position: absolute;
+    margin-top: 110px;
+    background-color: rgb(18, 69, 120);
+    padding: 10px;
+    height: 100px;    
+    width: 100px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: rgb(83, 54, 109);
+    padding: 20px;
+}
+.foto2 button{
+ width: 100px;
+ height: 100px;
+ background-color: rgb(236, 205, 32);
+ border-radius: 100%;
+ border-style: solid;
+ border-color: aquamarine;
+}
+.foto2 button a{
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(216, 205, 217);
+    border: 20px;
+   }
+  
+.contentterakhir{
+    width: 95%;
+    background-color: rgb(16, 6, 6);
+    position: absolute;
+    margin-top: 2690px;
+    height: 63%;
+    
+}
+.contentterakhir img{
+border-radius: 700px;
+width: 300px;
+height: 300px;
+padding-inline-start: 20px;
+border-style: solid;
+border-color: blue;
+position: absolute;
+margin-left: 880px;
+margin-top: 20px;
+;
+}
+.contentterakhir h1{
+    color: white;
+    width: 600px;
+    position: absolute;
+    margin-right:  750px;
+}
+.contentterakhir h3{
+    color: white;
+    width: 600px;
+    position: absolute;
+    margin-right:  750px;
+    margin-top: 120px;
+}
+.btn{
+    padding-top: 200px;
+    
+    margin-left:40px;
+    display: flex;
+   gap: 30px;
+  
+}
+.btn button{
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 55px;
+    border-style:solid ;
+    border-color: yellow;
+}
+.btn button a{
+    text-decoration: none;
+    color: orange;
+    font-size: 30px;
+}
+.fouter{
+    margin-top: 3104px;
+     background-color: black;      
+    width: 1282px;
+    height: 100pxs;
+    display: flex;
+    gap: 25px;
+}
+.foter1{   
+padding-top: 10px;
+margin-right: 400px;
+
+}
+.foter1 li{   
+    list-style: none;
+    color: white;
+   }
+   .foter1 li h4{   
+    margin-top: -20px;
+   } 
+   .foter1 li h1{   
+    padding-bottom: 10px;
+   } 
+   .foter2{   
+    padding-top: 10px;
+    margin-left: -310px;
+    
+    }
+    .foter2 li{   
+        list-style: none;
+        color: white;
+       }
+       .foter2 li h4{   
+        margin-top: -20px;
+       } 
+       .foter2 li h1{   
+        padding-bottom: 10px;
+       } 
+       .foter3{   
+        padding-top: 10px;
+        margin-left:120px;
+        
+        }
+        .foter3 li{   
+            list-style: none;
+            color: white;
+           }
+           .foter3 li h4{   
+            margin-top: -20px;
+           } 
+           .foter3 li h1{   
+            padding-bottom: 10px;
+           } 
+           .foter3 li h3{   
+            margin-top: -20px;
+           } 
+           
+           .foter4{   
+            padding-top: 10px;
+            margin-left: 180px;
+            
+            }
+            .foter4 li{   
+                list-style: none;
+                color: white;
+               }
+               .foter4 li h4{   
+                margin-top: -20px;
+               } 
+               .foter4 li h1{   
+                padding-bottom: 10px;
+               } 
+               .foter4 li h3{   
+                margin-top: -20px;
+               } 
+               
+               .foter4 li h2{   
+                margin-top: -20px;
+               } 
+               
